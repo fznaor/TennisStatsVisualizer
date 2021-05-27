@@ -1,0 +1,53 @@
+.mapSection h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.tooltipCountry {
+    padding: 4px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.countryName{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.countryHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.countryHeader p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.generalH2H{
+    text-align: center;
+}
+
+.countryPlayerH2H p{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.countryPlayerH2H{
+    margin-bottom: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, auto);
+}

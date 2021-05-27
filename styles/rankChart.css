@@ -1,0 +1,95 @@
+.rankChart h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.rankChart svg text{
+    fill: white;
+}
+
+.axis{
+    font-size: 15px;
+    color: white;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+
+.line {
+    fill: none;
+    stroke: #15f4ee;
+    stroke-width: 1.5px;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus{
+    width: 20px;
+    height: 20px;
+}
+
+.tooltip {
+    width: 94px;
+    padding: 4px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    pointer-events: none;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.tooltip div {
+    margin: 3px 0;
+}
+
+.tooltip-date,
+.tooltip-rank,
+.tooltip-points {
+    font-weight: bold;
+}
+
+.rankChartButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.rankChartButtons button{
+    font-family: "Monda";
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.rankChartButtons button:hover{
+    background-color: lightskyblue;
+}
+
+.rankChartButtons button:disabled{
+    background-color: gray;
+}
+
+.rankChartButtons button:last-child{
+    margin-right: 0;
+}

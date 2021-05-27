@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    position: relative;
+    font-family: "Monda";
+    background-color: black;
+    color: white;
+}
+
+#introText a{
+    text-decoration: none;
+    color: white;
+}
+
+#introText{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainHeader{
+    text-align: center;
+    background-color: navy;
+    margin: 0;
+    padding: 25px;
+    font-size: 20px;
+}
+
+#search {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-size: 25px;
+    font-family: "Monda";
+    height: 43px;
+    width: 500px;
+    margin-right: 20px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.foundPlayers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.playerInfo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: slategray;
+    margin: 10px;
+    width: 500px;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.playerInfo:hover {
+    background-color: darkturquoise;
+}
+
+.playerInfo a{
+    width: 100%;
+}
+
+.flag {
+    width: 70px;
+    margin-left: -5px;
+}
+
+.name {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.emptyMsg {
+    font-size: 30px;
+    text-align: center;
+}

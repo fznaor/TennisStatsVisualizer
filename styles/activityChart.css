@@ -1,0 +1,66 @@
+.activityChart h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.activityChart svg text{
+    fill: white;
+}
+
+.axis{
+    font-size: 15px;
+    color: white;
+}
+
+.activityChart .y.axis path,
+.activityChart .y.axis line {
+    display: none;
+}
+
+.tooltipAct {
+    padding: 4px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.tournName{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.matchResult{
+    display: flex;
+    align-items: center;
+}
+
+.roundText{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.chartLegend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.legendItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.legendCircle{
+    padding-right: 10px;
+    padding-left: 10px;
+}

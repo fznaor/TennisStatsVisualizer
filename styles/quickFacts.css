@@ -1,0 +1,36 @@
+.quickFacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pieText{
+    font-size: 30px;
+}
+
+.bestMatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.bestMatch p{
+    margin: 5px;
+}
+
+#bestWinTitle{
+    font-weight: bold;
+}
+
+#bestWinName{
+    display: flex;
+    align-items: center;
+}
+
+#bestWinName img{
+    margin-right: 5px;
+    margin-left: 5px;
+}

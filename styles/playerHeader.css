@@ -1,0 +1,106 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.info{
+    position: relative;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 150px;
+    overflow: hidden;
+}
+
+.blur {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 2000px;
+    filter: blur(500px);
+    opacity: 1;
+}
+
+.playerName{
+    text-align: center;
+    flex: 1 1 0px;
+    font-size: 40px;
+}
+
+.playerDOB{
+    font-size: 25px;
+}
+
+.flagDiv{
+    flex: 1 1 0px;
+}
+
+.flag{
+    display: block;
+    margin:auto;
+    width: 70px;
+}
+
+.variousInfo{
+    flex: 1 1 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flagAndHome{
+    flex: 1 1 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeA{
+    width: 50px;
+    margin-left: 25px;
+}
+
+.homeImg{
+    width: 50px;
+    margin-top: 5px;
+}
+
+.calenderImg{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.handImg{
+    width: 120px;
+    margin-left: 150px;
+}
+
+.DOBinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .handImg{
+        width: 120px;
+        margin-left: 0px;
+    }
+    .DOBinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calenderImg{
+        padding-top: 30px;
+    }
+    .playerDOB{
+        margin-top: 0px;
+    }
+    .info{
+        justify-content:space-around;
+    }
+}
