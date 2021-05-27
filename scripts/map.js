@@ -38,7 +38,7 @@ export function drawMap(player, countryStats){
             .attr("id", function(d) { return d.id; })
             .attr("d", path) .style("fill", function(d){return getColor(d.properties.name);})
             .style("stroke", "black")
-            .style("stroke-width", 0.1)
+            .style("stroke-width", 0.25)
             .style("stroke-opacity", 1)
             .on("mouseover", function (d) { 
                 if(getCountryCodeFromName(d.properties.name) in countryStats)
