@@ -50,6 +50,7 @@
 
         d3.csv("data/atp_players.csv", function(error, players){
             var player = players.filter(x => x.id == document.location.href.split('id=')[1])[0];
+            document.title = player.name + " " + player.surname + " - Tennis stats visualizer";
             drawPlayerHeader(player);
 
             d3.csv("data/atp_matches.csv", function(error, matches){

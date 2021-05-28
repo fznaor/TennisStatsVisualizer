@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>Tennis stats visualizer</title>
 <link href='https://fonts.googleapis.com/css?family=Monda' rel='stylesheet'>
 <link rel="stylesheet" href="styles/index.css"></link>
 
